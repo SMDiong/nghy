@@ -1,0 +1,8 @@
+[build]
+  publish = "dist"
+
+[[headers]]
+  for = "/assets/our-memory.pdf"
+  [headers.values]
+    Content-Disposition = 'attachment; filename="our-memory.pdf"'
+    Content-Type = "application/pdf"

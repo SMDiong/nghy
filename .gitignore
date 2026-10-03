@@ -1,0 +1,8 @@
+node_modules/
+.netlify/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+# dist is the finished website and MUST be committed.
